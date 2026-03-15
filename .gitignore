@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+# Allow folders (so Git can descend into them)
+!*/
+
+# Allow 
+!*.pdf
+!*.svg
+!*.jpg
+!*.md
+
+# Allow .gitignore and .gitattributes files themselves to be tracked
+!.gitignore
+!.gitattributes
+
+# (Optional) Ignore .DS_Store explicitly — in case Git picks it up anyway
+**/.DS_Store
