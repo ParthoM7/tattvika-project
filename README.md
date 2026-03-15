@@ -3,13 +3,11 @@
 <div>
   <img align="right" src="assets/vitruvian-man-wiki.jpg" alt="Description" width="300" style="margin-left: 20px;"/>
   <h3>An experiment in independent theoretical research and open-access teaching</h3>
-  <p>Tāttvika is a platform and workflow designed to sustain intellectual agency outside institutional academia. It asks: *Can the lack of institutional support be compensated by affordable, thoughtful use of AI?* The project explores whether rigorous theoretical work—grounded in the foundations of physics and mathematics—can thrive through independence, and whether that independence can yield meaningful contributions to society.
+  <p>Tāttvika is a platform and workflow designed to sustain intellectual agency outside institutional academia. It asks: <i>Can the lack of institutional support be compensated by affordable, thoughtful use of AI?</i> The project explores whether rigorous theoretical work—grounded in the foundations of physics and mathematics—can thrive through independence, and whether that independence can yield meaningful contributions to society.
 
 This is not merely a research initiative; it is a test of whether freedom from institutional constraints, combined with modern tools, can sustain a life of the mind.</p>
+<p style="text-align: center; font-size: 12px; margin: 5px 0 0 0;"><i>Picture courtesy: Wikimedia Commons</i></p>
 </div>
-
-
-
 
 ---
 
@@ -86,5 +84,7 @@ All Tāttvika applications—including the web platform, browser extensions, and
 This repository serves as a public log of the project's technical and conceptual development.
 
 *Last updated: March 2026*
+
 Powered by: Gemini, Claude, Kimi K2.5
+
 Supported by: *People of India*
