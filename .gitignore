@@ -9,6 +9,7 @@
 !*.svg
 !*.jpg
 !*.md
+!*.cff
 
 # Allow .gitignore and .gitattributes files themselves to be tracked
 !.gitignore
