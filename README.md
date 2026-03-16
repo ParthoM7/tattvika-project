@@ -1,16 +1,16 @@
 # Tāttvika Project
 
-<div>
-  <img align="right" src="assets/vitruvian-man-wiki.jpg" alt="Description" width="300" style="margin-left: 20px;"/>
-  <h3>An experiment in independent theoretical research and open-access teaching</h3>
-  </div>
-  
-Tāttvika is a platform and workflow designed to sustain intellectual agency outside institutional academia. It asks: <i>Can the lack of institutional support be compensated by affordable, thoughtful use of AI?</i> The project explores whether rigorous theoretical work—grounded in the foundations of physics and mathematics—can thrive through independence, and whether that independence can yield meaningful contributions to society.[^1][^2][^3][^4][^5]
 
-This is not merely a research initiative; it is a test of whether freedom from institutional constraints, combined with modern tools, can sustain a life of the mind.
+  <img align="right" src="assets/vitruvian-man-wiki.jpg" alt="Description" width="300" style="margin-left: 20px;"/>
+
+**Tāttvika is an experiment in independent theoretical research and open-access teaching.** It begins with a simple conviction: the pursuit of truth and the structure of institutional academia are not the same. In an ideal world, they would converge, but in practice, they can diverge uncomfortably, especially in foundational disciplines due to their natural abstractness and lack of tangibility.[^1][^2][^3][^4][^5]
+
+This project aims to explore whether rigorous intellectual work can survive outside institutional academia and remain open-access and socially meaningful. It seeks to experiment with the possibility of compensating for the loss of institutional support through a disciplined and affordable use of AI.
+
+Rooted in theoretical physics and foundational reflection on science and academia in general, Tāttvika is an attempt to turn independence into a viable condition for thought.
+
 
 *Picture courtesy: Wikimedia Commons*
-
 
 ---
 
@@ -38,7 +38,7 @@ Tāttvika features a unique **single-source-of-truth** architecture where conten
 - Single-key sync back to JSON truth, which then propagates to all other formats
 - Supports heavy math rendering across all environments
 
-**Status:** LaTeX-JSON-Quarto mapping completed and tested on math-heavy content. Platform in active development—public launch coming soon.
+**Status:** LaTeX-JSON-Quarto mapping completed and tested on math-heavy content. Platform in active development.
 
 ---
 
