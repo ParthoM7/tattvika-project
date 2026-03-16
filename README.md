@@ -1,7 +1,7 @@
 # Tāttvika Project
 
 
-  <img align="right" src="assets/vitruvian-man-wiki.jpg" alt="Description" width="200" style="margin-left: 20px;"/>
+  <img align="right" src="assets/vitruvian-man-no-bg.png" alt="Description" width="200" style="margin-left: 20px;"/>
 
 **Tāttvika is an experiment in independent theoretical research and open-access teaching.** It begins with a simple conviction: the pursuit of truth and the structure of institutional academia are not the same. In an ideal world, they would converge, but in practice, they can diverge uncomfortably, especially in foundational disciplines due to their natural abstractness and lack of tangibility.[^1][^2][^3][^4][^5]
 
