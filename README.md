@@ -90,7 +90,9 @@ This repository serves as a public log of the project's technical and conceptual
 *Last updated: March 2026*
 
 
-## References
+<div>
+  <h3>References</h3>
+</div>
 
 [^1]: “Robert K. Merton, The Normative Structure of Science (1942).” Accessed March 15, 2026. https://www.panarchy.org/merton/science.html.
 
