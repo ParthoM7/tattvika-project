@@ -44,7 +44,7 @@ Tāttvika features a unique **single-source-of-truth** architecture where conten
 
 ## The Uni Collective
 
-A distributed research environment where AI agents function as specialist collaborators—literature analysts, writers, system developers—working alongside human direction.
+The Uni Collective is a team of purpose-built AI agents—each with a specialized role (literature analysis, writing, system development)—that work under human direction to support independent research. "Uni" is short for the collective, not an institution.
 
 ### Research Pipeline
 
@@ -69,6 +69,7 @@ The Uni Collective supports an end-to-end workflow where AI agents assist in exp
 **Near-term:**
 - Public launch of Tāttvika Web platform
 - Research workflow optimization with Uni Collective integration
+ - Inaugural research post: a symmetry-preserving UV cutoff in quantum field theory
 
 **Exploratory:**
 - Teaching platform development
