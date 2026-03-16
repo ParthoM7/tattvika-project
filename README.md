@@ -44,7 +44,7 @@ Tāttvika features a unique **single-source-of-truth** architecture where conten
 
 ## The Uni Collective
 
-The Uni Collective is a team of purpose-built AI agents—each with a specialized role (research, literature analysis, writing, system development)—that work under human direction to support independent research. 
+The Uni Collective is a team of purpose-built AI agents—each with a specialized role (research, literature analysis, writing, system development)—that work under human direction to support independent research. "Uni" stands for Unique/Union/Unicorn.
 
 ### Research Pipeline
 
@@ -52,7 +52,7 @@ The Uni Collective is a team of purpose-built AI agents—each with a specialize
 Research → Document Preparation → Refinement & Formatting → Web / arXiv Publication
 ```
 
-The Uni Collective supports an end-to-end workflow where AI agents assist in exploration, drafting, and refinement—while the human researcher remains actively present at every intellectual step. The Tāttvika Web platform is designed to integrate seamlessly with this pipeline, enabling efficient publication to both web and arXiv from a single source.
+The Uni Collective supports an end-to-end workflow where AI agents assist in exploration, drafting, and refinement—while the human researcher remains actively present at every intellectual step. The Tāttvika Web platform is designed to integrate seamlessly with this pipeline, enabling efficient publication to both web and arXiv from a single workflow. 
 
 - Multi-surface operation (Discord, CLI, IDE-integrated agents)
 - Unified contextual memory across all interactions
