@@ -44,7 +44,7 @@ Tāttvika features a unique **single-source-of-truth** architecture where conten
 
 ## The Uni Collective
 
-The Uni Collective is a team of purpose-built AI agents—each with a specialized role (literature analysis, writing, system development)—that work under human direction to support independent research. "Uni" is short for the collective, not an institution.
+The Uni Collective is a team of purpose-built AI agents—each with a specialized role (research, literature analysis, writing, system development)—that work under human direction to support independent research. 
 
 ### Research Pipeline
 
