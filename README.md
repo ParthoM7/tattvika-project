@@ -3,7 +3,7 @@
 
   <img align="right" src="assets/vitruvian-man-no-bg.png" alt="Description" width="200" style="margin-left: 20px;"/>
 
-**Tāttvika is an experiment in independent theoretical research and open-access teaching.** It begins with a simple conviction: the pursuit of truth and the structure of institutional academia are not the same. In an ideal world, they would converge, but in practice, they can diverge uncomfortably, especially in foundational disciplines due to their natural abstractness and lack of tangibility.[^1][^2][^3][^4][^5]
+**Tāttvika is an experiment in independent theoretical research and open-access teaching.** It begins with a simple conviction: the pursuit of truth and the structure of institutional academia are not the same. In an ideal world, they would converge, but in practice, they can diverge uncomfortably, especially in foundational disciplines due to their natural abstractness and lack of tangibility.[^1][^2][^3][^4][^5][^6]
 
 The project explores whether rigorous intellectual work can survive outside institutional academia and remain open-access and socially meaningful. Where institutions provide collaborative teams, Tāttvika experiments with AI augmentation — treating agents as extensions of the researcher's own mind, each amplifying a specific capability. The wager is that this can compensate for the loss of institutional support, at pocket-level cost.
 
@@ -89,7 +89,9 @@ All Tāttvika applications—including the web platform, browser extensions, and
 This repository serves as a public log of the project's technical and conceptual development.
 
 ---
-*Last updated: March 16, 2026*
+*Created: March 15, 2026*
+
+*Last updated: March 17, 2026*
 
 
 <div>
@@ -98,12 +100,13 @@ This repository serves as a public log of the project's technical and conceptual
 
 [^1]: “Robert K. Merton, The Normative Structure of Science (1942).” Accessed March 15, 2026. https://www.panarchy.org/merton/science.html.
 
-[^2]: Smaldino, Paul E., and Richard McElreath. “The Natural Selection of Bad Science.” Royal Society Open Science 3, no. 9 (2016): 160384. https://doi.org/10.1098/rsos.160384.
+[^2]: Ioannidis, John P. A. “Why Most Published Research Findings Are False.” PLOS Medicine 2, no. 8 (2005): e124. https://doi.org/10.1371/journal.pmed.0020124.
 
-[^3]: Ioannidis, John P. A. “Why Most Published Research Findings Are False.” PLOS Medicine 2, no. 8 (2005): e124. https://doi.org/10.1371/journal.pmed.0020124.
+[^3]: Smaldino, Paul E., and Richard McElreath. “The Natural Selection of Bad Science.” Royal Society Open Science 3, no. 9 (2016): 160384. https://doi.org/10.1098/rsos.160384.
 
 [^4]: Ellis, George, and Joe Silk. “Scientific Method: Defend the Integrity of Physics.” Nature 516, no. 7531 (2014): 321–23. https://doi.org/10.1038/516321a.
 
 [^5]: Hossenfelder, Sabine. Lost in Math: How Beauty Leads Physics Astray. Basic Books, 2018.
 
+[^6]: Griep, Yannick, and Kevin S. Cruz. “Calling the Time of Death on Academia: An Obituary and An Autopsy.” Group & Organization Management, March 2, 2026, 10596011261431423. https://doi.org/10.1177/10596011261431423.
 
