@@ -18,11 +18,7 @@ tags:
 
 **Tāttvika is an experiment in independent theoretical research and open-access teaching.** It begins with a simple conviction: the pursuit of truth and the structure of institutional academia are not the same. In an ideal world, they would converge, but in practice, they can diverge uncomfortably, especially in foundational disciplines due to their natural abstractness and lack of tangibility.[^1][^2][^3][^4][^5][^6]
 
-<<<<<<< Updated upstream
-The project explores whether rigorous intellectual work can survive outside institutional academia and remain open-access and socially meaningful. Where institutions provide collaborative teams, Tāttvika experiments with [AI Augmentation (AIA)](./essays/AI-Augmentation.md) — treating agents as extensions of the researcher's own mind, each amplifying a specific capability. The wager is that this can compensate for the loss of institutional support, at pocket-level cost.
-=======
 The project explores whether rigorous intellectual work can survive outside institutional academia and remain open-access and socially meaningful. Where institutions provide collaborative teams, Tāttvika experiments with AI augmentation — treating agents as extensions of the researcher's own mind, each amplifying a specific capability. The wager is that this can compensate for the loss of institutional support, at pocket-level cost.
->>>>>>> Stashed changes
 
 Rooted in theoretical physics and foundational reflection on science and academia in general, Tāttvika is an attempt to turn independence into a viable condition for thought.
 
