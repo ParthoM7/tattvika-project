@@ -1,7 +1,7 @@
 ---
 title: Tāttvika Project
 created: 2026-03-15, 07:27 PM
-lastUpdated: 2026-08-17, 10:45 PM
+lastUpdated: 2026-08-17, 10:51 PM
 ---
 
 
@@ -96,11 +96,11 @@ All Tāttvika applications—including the web platform, browser extensions, and
 This repository serves as a public log of the project's technical and conceptual development.
 
 ***
-<div align="right" style="font-size: 0.9em; color: gray; font-style: italic;">
-Created: March 15, 2026 <br>
-Language refinement and Markdown formatting assisted by Kimi K2.5. 
+<div align="right">
+  <em>Created: March 15, 2026 </em>
+  <br>
+  <em>Language refinement and Markdown formatting assisted by Kimi K2.5.</em>
 </div>
-
 
 
 <div>
