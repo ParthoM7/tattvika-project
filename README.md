@@ -1,12 +1,7 @@
 ---
 title: Tāttvika Project
-agent:
-status:
-created: 2026-08-12, 07:27 PM
+created: 2026-03-15, 07:27 PM
 lastUpdated: 2026-08-17, 10:05 PM
-topic:
-purpose:
-location: Chennai
 tags:
 ---
 
