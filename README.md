@@ -1,8 +1,7 @@
 ---
 title: Tāttvika Project
 created: 2026-03-15, 07:27 PM
-lastUpdated: 2026-08-17, 10:05 PM
-tags:
+lastUpdated: 2026-08-17, 10:45 PM
 ---
 
 
@@ -96,10 +95,12 @@ All Tāttvika applications—including the web platform, browser extensions, and
 
 This repository serves as a public log of the project's technical and conceptual development.
 
----
-*Created: March 15, 2026*
+***
+<div align="right" style="font-size: 0.9em; color: gray; font-style: italic;">
+Created: March 15, 2026 <br>
+Language refinement and Markdown formatting assisted by Kimi K2.5. 
+</div>
 
-*Last updated: March 17, 2026*
 
 
 <div>
@@ -118,7 +119,3 @@ This repository serves as a public log of the project's technical and conceptual
 
 [^6]: Griep, Yannick, and Kevin S. Cruz. “Calling the Time of Death on Academia: An Obituary and An Autopsy.” Group & Organization Management, March 2, 2026, 10596011261431423. https://doi.org/10.1177/10596011261431423.
 
-***
-<div align="right" style="font-size: 0.9em; color: gray; font-style: italic;">
-Language refinement and Markdown formatting assisted by Kimi K2.5.
-</div>
