@@ -1,11 +1,10 @@
 ---
 title: Tāttvika Project
 created: 2026-03-15, 07:27 PM
-lastUpdated: 2026-08-18, 10:39 PM
+lastUpdated: 2026-08-18, 11:46 PM
 layout: essay
 acknowledgement: Language refinement and Markdown formatting assisted by Kimi K2.5.
 ---
-
 
 # Tāttvika Project
 
