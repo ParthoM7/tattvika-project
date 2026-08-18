@@ -35,7 +35,7 @@ layout: default
 
 </div>
 
-<!-- 4. Mermaid Rendering Script -->
+<!-- 4. Mermaid Rendering Script (Fixed Dark Theme & Colors) -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   
@@ -43,24 +43,29 @@ layout: default
     startOnLoad: false, 
     theme: 'base',
     themeVariables: {
+      darkMode: true,
       background: '#1E1E1E',
       primaryColor: '#151515',
       primaryTextColor: '#e8e8e8',
       primaryBorderColor: '#59d5c4',
       lineColor: '#888888',
+      textColor: '#e8e8e8',
+      mainBkg: '#151515',
+      nodeBorder: '#59d5c4',
       fontFamily: 'inherit'
     }
   });
 
   document.addEventListener("DOMContentLoaded", async function() {
-    const elements = document.querySelectorAll("pre code.language-mermaid");
+    const elements = document.querySelectorAll('.language-mermaid');
+    
     elements.forEach((el) => {
-      const pre = el.parentElement;
       const div = document.createElement("div");
       div.className = "mermaid";
       div.textContent = el.textContent;
-      pre.replaceWith(div);
+      el.replaceWith(div);
     });
+    
     await mermaid.run();
   });
 </script>
