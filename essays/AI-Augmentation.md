@@ -2,6 +2,8 @@
 title: AI Augmentation
 created: 2026-08-18, 10:12 PM
 lastUpdated: 2026-08-18, 08:56 PM
+layout: essay
+acknowledgement: Language refinement and Markdown formatting assisted by Claude.
 ---
 
 # AI Augmentation
