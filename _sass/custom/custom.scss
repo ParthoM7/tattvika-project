@@ -1,12 +1,15 @@
-mermaid.initialize({ 
-    startOnLoad: false, 
-    theme: 'base',
-    themeVariables: {
-      background: '#1E1E1E',         // Matches the new page background
-      primaryColor: '#151515',       // The dark black inside the boxes
-      primaryTextColor: '#e8e8e8',   // Light text inside the boxes
-      primaryBorderColor: '#59d5c4', // The shaded color border (Using your h4 cyan, tweak as needed!)
-      lineColor: '#888888',          // The arrows and connecting lines
-      fontFamily: 'inherit'          // Forces diagrams to use the website's font
-    }
-  });
+/* Set overall background to match Obsidian */
+$body-background-color-dark: #1E1E1E;
+
+/* Custom Header Colors */
+.main-content {
+  h1 { color: #f37b84 !important; }
+  h2 { color: #ffd98c !important; }
+  h3 { color: #9ff369 !important; }
+  h4 { color: #59d5c4 !important; }
+  h5 { color: #2a8aff !important; }
+  h6 { color: #b99aff !important; }
+
+  /* Custom Bold and Italics */
+  strong, em { color: #A3B18A !important; }
+}
