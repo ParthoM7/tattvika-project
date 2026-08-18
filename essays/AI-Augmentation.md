@@ -1,10 +1,11 @@
 ---
 title: AI Augmentation
 created: 2026-08-18, 10:12 PM
-lastUpdated: 2026-08-18, 07:44 PM
+lastUpdated: 2026-08-18, 08:08 PM
 ---
 
 # AI Augmentation
+*[Partha Mukhopadhyay](https://www.imsc.res.in/partha_mukhopadhyay)*
 
 ## 1. Introduction
 
