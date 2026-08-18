@@ -2,6 +2,7 @@
 title: Tāttvika Project
 created: 2026-03-15, 07:27 PM
 lastUpdated: 2026-08-18, 09:24 PM
+nav_exclude: "true"
 ---
 
 
