@@ -1,14 +1,19 @@
 ---
 title: Tāttvika Project
 created: 2026-03-15, 07:27 PM
-lastUpdated: 2026-08-18, 10:39 PM
-layout: essay
-acknowledgement: Language refinement and Markdown formatting assisted by Kimi K2.5.
+lastUpdated: 2026-08-18, 09:24 PM
+nav_exclude: "true"
 ---
 
 
 # Tāttvika Project
-
+<div align="right">
+  <em><a href="https://www.imsc.res.in/partha_mukhopadhyay">Partha Mukhopadhyay</a> </em>
+  <br>
+  <em> </em>
+  <br>
+  <em> </em>
+</div>
 
   <img align="right" src="assets/vitruvian-man-no-bg.png" alt="Description" width="200" style="margin-left: 20px;"/>
 
@@ -98,6 +103,12 @@ All Tāttvika applications—including the web platform, browser extensions, and
 This repository serves as a public log of the project's technical and conceptual development.
 
 ***
+<div align="right">
+  <em>Created: March 15, 2026 </em>
+  <br>
+  <em>Language refinement and Markdown formatting assisted by Kimi K2.5.</em>
+</div>
+
 
 <div>
   <h3>References</h3>
