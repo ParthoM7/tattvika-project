@@ -1,7 +1,7 @@
 ---
 title: Tāttvika Project
 created: 2026-03-15, 07:27 PM
-lastUpdated: 2026-08-18, 08:59 PM
+lastUpdated: 2026-08-18, 09:24 PM
 ---
 
 
@@ -9,9 +9,9 @@ lastUpdated: 2026-08-18, 08:59 PM
 <div align="right">
   <em><a href="https://www.imsc.res.in/partha_mukhopadhyay">Partha Mukhopadhyay</a> </em>
   <br>
-  <em> <em>
+  <em> </em>
   <br>
-  <em> <em>
+  <em> </em>
 </div>
 
   <img align="right" src="assets/vitruvian-man-no-bg.png" alt="Description" width="200" style="margin-left: 20px;"/>
