@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<!-- 1. Author & Acknowledgement Block -->
+<div style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid #333;">
+  
+  <div style="font-style: italic;">
+    <a href="{{ page.author_url | default: 'https://www.imsc.res.in/partha_mukhopadhyay' }}">
+      {{ page.author | default: 'Partha Mukhopadhyay' }}
+    </a>
+  </div>
+
+  {% if page.acknowledgement %}
+    <div style="font-size: 0.9em; color: #888; margin-top: 0.5em;">
+      {{ page.acknowledgement }}
+    </div>
+  {% endif %}
+
+</div>
+
+<!-- 2. The Main Markdown Content -->
+{{ content }}
+
+<!-- 3. Left/Right Flushed Footer -->
+<div style="display: flex; justify-content: space-between; margin-top: 3em; padding-top: 1em; border-top: 1px solid #333; font-size: 0.9em; color: #888;">
+  
+  <div>
+    {% if page.created %}<strong>Created:</strong> {{ page.created }}{% endif %}
+  </div>
+  
+  <div>
+    {% if page.lastUpdated %}<strong>Last Updated:</strong> {{ page.lastUpdated }}{% endif %}
+  </div>
+
+</div>
+
+<!-- 4. Mermaid Rendering Script (Set to Dark Theme) -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+
+  document.addEventListener("DOMContentLoaded", async function() {
+    const elements = document.querySelectorAll("pre code.language-mermaid");
+    elements.forEach((el) => {
+      const pre = el.parentElement;
+      const div = document.createElement("div");
+      div.className = "mermaid";
+      div.textContent = el.textContent;
+      pre.replaceWith(div);
+    });
+    await mermaid.run();
+  });
+</script>
