@@ -35,19 +35,20 @@ layout: default
 
 </div>
 
-<!-- 4. Mermaid Rendering Script (Set to Dark Theme) -->
+<!-- 4. Mermaid Rendering Script -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  
   mermaid.initialize({ 
     startOnLoad: false, 
     theme: 'base',
     themeVariables: {
-      background: '#1E1E1E',         // Matches the new page background
-      primaryColor: '#151515',       // The dark black inside the boxes
-      primaryTextColor: '#e8e8e8',   // Light text inside the boxes
-      primaryBorderColor: '#59d5c4', // The shaded color border (Using your h4 cyan, tweak as needed!)
-      lineColor: '#888888',          // The arrows and connecting lines
-      fontFamily: 'inherit'          // Forces diagrams to use the website's font
+      background: '#1E1E1E',
+      primaryColor: '#151515',
+      primaryTextColor: '#e8e8e8',
+      primaryBorderColor: '#59d5c4',
+      lineColor: '#888888',
+      fontFamily: 'inherit'
     }
   });
 
