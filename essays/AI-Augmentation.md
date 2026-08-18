@@ -1,15 +1,12 @@
 ---
 title: AI Augmentation
 created: 2026-08-18, 10:12 PM
-lastUpdated: 2026-08-18, 10:36 PM
+lastUpdated: 2026-08-18, 10:38 PM
 layout: essay
 acknowledgement: Language refinement and Markdown formatting assisted by Claude.
 ---
 
 # AI Augmentation
-<div align="right">
-  <em><a href="https://www.imsc.res.in/partha_mukhopadhyay">Partha Mukhopadhyay</a> </em>
-</div>
 
 ## 1. Introduction
 
@@ -229,9 +226,3 @@ None of these fully replaces rigorous review by someone who knows the field and 
 
 AIA does not promise that anyone can do anything. It promises something narrower: that a discerning, self-critical mind can venture into hard territory, direct a machine intelligence through it, verify the results against reality, and produce work of substance, provided it accepts the responsibility that comes with it. The gate it removes is the one guarding the door. The rigor it demands, it demands of everyone alike. **AIA moves responsibility to the human; it does not dissolve it**, and in that relocation lies both its liberation and its discipline.
 
-***
-<div align="right">
-  <em>Created: August 18, 2026 </em>
-  <br>
-  <em>Language refinement and Markdown formatting assisted by Claude.</em>
-</div>
