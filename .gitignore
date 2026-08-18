@@ -21,4 +21,5 @@
 
 # Ignore specific subfolders
 archive/
+internal-work/
 share/
