@@ -1,0 +1,12 @@
+mermaid.initialize({ 
+    startOnLoad: false, 
+    theme: 'base',
+    themeVariables: {
+      background: '#1E1E1E',         // Matches the new page background
+      primaryColor: '#151515',       // The dark black inside the boxes
+      primaryTextColor: '#e8e8e8',   // Light text inside the boxes
+      primaryBorderColor: '#59d5c4', // The shaded color border (Using your h4 cyan, tweak as needed!)
+      lineColor: '#888888',          // The arrows and connecting lines
+      fontFamily: 'inherit'          // Forces diagrams to use the website's font
+    }
+  });
