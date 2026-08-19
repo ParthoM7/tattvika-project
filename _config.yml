@@ -9,6 +9,8 @@ defaults:
 aux_links:
   "View on GitHub":
     - "https://github.com/ParthoM7/tattvika-project"      
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/ParthoM7/tattvika-project"
 gh_edit_branch: "main"
-
+gh_edit_view_mode: "edit"
