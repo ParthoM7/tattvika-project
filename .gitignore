@@ -11,6 +11,7 @@
 !*.png
 !*.md
 !*.cff
+!*.js
 
 # Allow .gitignore and .gitattributes files themselves to be tracked
 !.gitignore
