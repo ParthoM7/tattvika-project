@@ -13,7 +13,7 @@ body, .side-bar, .main-header, .site-header {
   overflow-x: auto;
   background-color: #2F3437 !important;
   /* Resetting font size to prevent text from spilling out of boxes */
-  font-size: 16px !important; 
+  font-size: 16px !important;
 }
 .mermaid svg {
   max-width: 100% !important;
@@ -76,8 +76,23 @@ body, .side-bar, .main-header, .site-header {
   h5 { color: #2a8aff !important; }
   h6 { color: #b99aff !important; }
   strong, em { color: #A3B18A !important; }
+}
 
-/* Increase main reading pane width */
-.main-content {
-  max-width: 1050px !important; }
+/* ==========================================================================
+   5. FIXED DESKTOP SIDEBAR WITH A FLUID READING PANE
+   ========================================================================== */
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: 16.5rem !important;
+  }
+
+  .main {
+    width: auto !important;
+    max-width: none !important;
+    margin-left: 16.5rem !important;
+  }
+
+  .main-content {
+    max-width: none !important;
+  }
 }
