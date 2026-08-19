@@ -1,7 +1,48 @@
-/* Set overall background to match Obsidian */
-$body-background-color-dark: #1E1E1E;
+/* ==========================================================================
+   1. GLOBAL BACKGROUND (Match Obsidian #1E1E1E)
+   ========================================================================== */
+body, .side-bar, .main-header, .site-header {
+  background-color: #1E1E1E !important;
+}
 
-/* Custom Header Colors */
+/* ==========================================================================
+   2. MERMAID DIAGRAM SCALING (Your active editor overrides)
+   ========================================================================== */
+.mermaid {
+  max-width: 100% !important;
+  overflow-x: auto;
+  /* Resetting font size to prevent text from spilling out of boxes */
+  font-size: 16px !important; 
+}
+.mermaid svg {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* ==========================================================================
+   3. MERMAID BOX COLORS (Web-only override for light Markdown colors)
+   ========================================================================== */
+/* Intercept the light fill colors from the raw Markdown and force them dark */
+.node.root rect, .node.root polygon, .node.root circle {
+  fill: #121a2f !important;
+}
+.node.surface rect, .node.surface polygon, .node.surface circle {
+  fill: #142013 !important;
+}
+.node.human rect, .node.human polygon, .node.human circle {
+  fill: #2b1d12 !important;
+}
+
+/* Ensure text inside these specific colored nodes remains visible */
+.node.root, .node.surface, .node.human {
+  .label, .nodeLabel, span, div, p {
+    color: #e8e8e8 !important;
+  }
+}
+
+/* ==========================================================================
+   4. CUSTOM TYPOGRAPHY (Headers, Bold, Italics)
+   ========================================================================== */
 .main-content {
   h1 { color: #f37b84 !important; }
   h2 { color: #ffd98c !important; }
@@ -9,7 +50,5 @@ $body-background-color-dark: #1E1E1E;
   h4 { color: #59d5c4 !important; }
   h5 { color: #2a8aff !important; }
   h6 { color: #b99aff !important; }
-
-  /* Custom Bold and Italics */
   strong, em { color: #A3B18A !important; }
 }
