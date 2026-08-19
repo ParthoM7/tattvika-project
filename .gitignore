@@ -21,6 +21,6 @@
 **/.DS_Store
 
 # Ignore specific subfolders
-_0. Archive/
-_0. Internal-Work/
-share/
+_Archive/
+_Internal-Work/
+
