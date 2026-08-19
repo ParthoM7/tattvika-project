@@ -9,3 +9,6 @@ defaults:
 aux_links:
   "View on GitHub":
     - "https://github.com/ParthoM7/tattvika-project"      
+gh_edit_repository: "https://github.com/ParthoM7/tattvika-project"
+gh_edit_branch: "main"
+
