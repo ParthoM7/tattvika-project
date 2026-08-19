@@ -20,24 +20,33 @@ body, .side-bar, .main-header, .site-header {
 }
 
 /* ==========================================================================
-   3. MERMAID BOX COLORS (Web-only override for light Markdown colors)
+   3. MERMAID DIAGRAM COLOR OVERRIDES
    ========================================================================== */
-/* Intercept the light fill colors from the raw Markdown and force them dark */
+
+/* A. Accurately matching Obsidian's dark-mode node backgrounds */
 .node.root rect, .node.root polygon, .node.root circle {
-  fill: #121a2f !important;
+  fill: #1D263B !important; 
 }
 .node.surface rect, .node.surface polygon, .node.surface circle {
-  fill: #142013 !important;
+  fill: #1F291E !important; 
 }
 .node.human rect, .node.human polygon, .node.human circle {
-  fill: #2b1d12 !important;
+  fill: #36261A !important; 
 }
 
-/* Ensure text inside these specific colored nodes remains visible */
-.node.root, .node.surface, .node.human {
-  .label, .nodeLabel, span, div, p {
-    color: #e8e8e8 !important;
-  }
+/* B. Force all node text to light mode (Overriding the Markdown's inline styles) */
+.node .label, .node span, .node p, .node div, .node tspan {
+  color: #e8e8e8 !important;
+  fill: #e8e8e8 !important;
+}
+
+/* C. Fix Edge Labels (Remove the harsh white backgrounds on the arrows) */
+.edgeLabel rect {
+  fill: #1E1E1E !important; 
+}
+.edgeLabel div, .edgeLabel span {
+  background-color: #1E1E1E !important;
+  color: #e8e8e8 !important;
 }
 
 /* ==========================================================================
