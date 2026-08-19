@@ -70,13 +70,25 @@ layout: default
   });
 
   document.addEventListener("DOMContentLoaded", async function() {
-    const elements = document.querySelectorAll('.language-mermaid');
+    // Find all code blocks on the page
+    const codeBlocks = document.querySelectorAll('pre code');
+    
+    // Filter only the ones that contain Mermaid syntax (like 'graph TD' or 'classDef')
+    const elements = Array.from(codeBlocks).filter(el => 
+      el.textContent.includes('graph ') || el.textContent.includes('classDef')
+    );
     
     elements.forEach((el) => {
       const div = document.createElement("div");
       div.className = "mermaid";
       div.textContent = el.textContent;
-      el.replaceWith(div);
+      
+      // Replace the entire <pre> wrapper so it formats correctly
+      if (el.parentElement.tagName === 'PRE') {
+        el.parentElement.replaceWith(div);
+      } else {
+        el.replaceWith(div);
+      }
     });
     
     await mermaid.run();
