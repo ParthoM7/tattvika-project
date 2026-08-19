@@ -60,4 +60,8 @@ body, .side-bar, .main-header, .site-header {
   h5 { color: #2a8aff !important; }
   h6 { color: #b99aff !important; }
   strong, em { color: #A3B18A !important; }
+
+/* Increase main reading pane width */
+.main-content-wrap {
+  max-width: 1050px !important; }
 }
