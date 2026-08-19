@@ -35,7 +35,7 @@ layout: default
 
 </div>
 
-<!-- 4. Mermaid Rendering Script (Fixed Dark Theme & Colors) -->
+<!-- 4. Mermaid Rendering Script (Using Native SVG themeCSS) -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   
@@ -45,32 +45,35 @@ layout: default
     themeVariables: {
       darkMode: true,
       background: '#1E1E1E',
-      primaryColor: '#151515',
-      lineColor: '#888888',
-      textColor: '#e8e8e8'
-    }
+      lineColor: '#888888'
+    },
+    themeCSS: `
+      /* Force dark backgrounds on the boxes */
+      .node.root rect, .node.root polygon { fill: #1D263B !important; }
+      .node.surface rect, .node.surface polygon { fill: #1F291E !important; }
+      .node.human rect, .node.human polygon { fill: #36261A !important; }
+      
+      /* Force text inside boxes to off-white */
+      .node .label { color: #e8e8e8 !important; }
+      .node tspan { fill: #e8e8e8 !important; }
+      
+      /* Fix the white background on arrow labels */
+      .edgeLabel rect { fill: #1E1E1E !important; }
+      .edgeLabel span, .edgeLabel div { color: #e8e8e8 !important; background-color: #1E1E1E !important; }
+    `
   });
 
-document.addEventListener("DOMContentLoaded", async function() {
+  document.addEventListener("DOMContentLoaded", async function() {
     const elements = document.querySelectorAll('.language-mermaid');
     
     elements.forEach((el) => {
       const div = document.createElement("div");
       div.className = "mermaid";
-      
-      // Intercept and swap the hex codes dynamically for the web
-      let diagramText = el.textContent;
-      diagramText = diagramText.replace(/fill:#e8eef7/g, 'fill:#1D263B'); // root box
-      diagramText = diagramText.replace(/fill:#eef3ec/g, 'fill:#1F291E'); // surface box
-      diagramText = diagramText.replace(/fill:#f7efe8/g, 'fill:#36261A'); // human box
-      diagramText = diagramText.replace(/color:#1a2a44/g, 'color:#e8e8e8'); // root text
-      diagramText = diagramText.replace(/color:#1e2e1a/g, 'color:#e8e8e8'); // surface text
-      diagramText = diagramText.replace(/color:#442e1a/g, 'color:#e8e8e8'); // human text
-      
-      div.textContent = diagramText;
+      div.textContent = el.textContent;
       el.replaceWith(div);
     });
     
     await mermaid.run();
   });
+</script>
 </script>
