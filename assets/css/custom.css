@@ -1,0 +1,11 @@
+---
+---
+/* Force Obsidian Background */
+body, .side-bar, .site-header, .main-header { 
+  background-color: #1E1E1E !important; 
+}
+
+/* Widen Reading Pane */
+.main-content { 
+  max-width: 1050px !important; 
+}
