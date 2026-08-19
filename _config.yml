@@ -6,6 +6,7 @@ defaults:
       path: "README.md"
     values:
       nav_exclude: true
+      permalink: /
 aux_links:
   "View on GitHub":
     - "https://github.com/ParthoM7/tattvika-project"      
