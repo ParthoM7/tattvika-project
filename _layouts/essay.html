@@ -51,13 +51,23 @@ layout: default
     }
   });
 
-  document.addEventListener("DOMContentLoaded", async function() {
+document.addEventListener("DOMContentLoaded", async function() {
     const elements = document.querySelectorAll('.language-mermaid');
     
     elements.forEach((el) => {
       const div = document.createElement("div");
       div.className = "mermaid";
-      div.textContent = el.textContent;
+      
+      // Intercept and swap the hex codes dynamically for the web
+      let diagramText = el.textContent;
+      diagramText = diagramText.replace(/fill:#e8eef7/g, 'fill:#1D263B'); // root box
+      diagramText = diagramText.replace(/fill:#eef3ec/g, 'fill:#1F291E'); // surface box
+      diagramText = diagramText.replace(/fill:#f7efe8/g, 'fill:#36261A'); // human box
+      diagramText = diagramText.replace(/color:#1a2a44/g, 'color:#e8e8e8'); // root text
+      diagramText = diagramText.replace(/color:#1e2e1a/g, 'color:#e8e8e8'); // surface text
+      diagramText = diagramText.replace(/color:#442e1a/g, 'color:#e8e8e8'); // human text
+      
+      div.textContent = diagramText;
       el.replaceWith(div);
     });
     
