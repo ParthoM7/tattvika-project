@@ -7,9 +7,9 @@ nav_exclude: true
 
 # Subscribe to Tāttvika Updates
 
-Tāttvika provides a web feed for readers who want to know when a new article or a meaningfully revised version is published. No GitHub account is required.
+Tāttvika provides a web feed for readers who want to know when a new article or a new major edition is published. No GitHub account is required.
 
-The feed announces versioned releases such as V1.1 or V1.2. Minor typographical, layout, or maintenance corrections are not announced.
+The feed announces an article's first public release at V1.1 and later major editions such as V2.1 or V3.1. Minor revisions such as V1.2 through V1.10 and beyond are published silently, as are typographical, layout, and maintenance corrections. The precise current version remains visible in the article's Markdown source on GitHub.
 
 ## How to subscribe
 
@@ -30,7 +30,7 @@ If you already use a feed reader, you can also [open the Atom feed directly]({{ 
 
 ## What happens next
 
-Your feed reader periodically checks this address. When Tāttvika publishes a meaningful update, the reader displays its version, summary, publication date, and a link to the updated article.
+Your feed reader periodically checks this address. When Tāttvika publishes a new article or a new major edition, the reader displays its version, summary, publication date, and a link to the updated article.
 
 This is not an email newsletter: the subscription is controlled entirely by your chosen feed reader, and Tāttvika does not receive your email address or subscription details.
 
