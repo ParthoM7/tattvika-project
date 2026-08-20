@@ -1,15 +1,49 @@
 title: Tāttvika Project
+description: Versioned updates to essays and documents published by the Tāttvika Project.
+url: "https://parthom7.github.io"
+baseurl: "/tattvika-project"
+author:
+  name: Partha Mukhopadhyay
+  uri: "https://www.imsc.res.in/partha_mukhopadhyay"
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
+plugins:
+  - jekyll-redirect-from
+  - jekyll-feed
+collections:
+  updates:
+    output: true
+    permalink: /updates/:name.html
+feed:
+  excerpt_only: true
+  posts_limit: 20
+  collections:
+    updates:
+      path: /feed.xml
+    posts:
+      path: /feed/posts.xml
 defaults:
   - scope:
       path: "README.md"
     values:
       nav_exclude: true
       permalink: /
+  - scope:
+      path: "essays/ai-augmentation.md"
+    values:
+      redirect_from:
+        - /essays/AI-Augmentation.html
+  - scope:
+      path: ""
+      type: updates
+    values:
+      layout: default
+      nav_exclude: true
 aux_links:
   "View on GitHub":
-    - "https://github.com/ParthoM7/tattvika-project"      
+    - "https://github.com/ParthoM7/tattvika-project"
+  "Subscribe to updates":
+    - "https://parthom7.github.io/tattvika-project/feed.xml"
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/ParthoM7/tattvika-project"

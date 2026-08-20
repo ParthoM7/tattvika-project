@@ -1,5 +1,6 @@
 ---
 title: AI Augmentation
+version: "1.1"
 created: 2026-08-18, 10:12 PM
 lastUpdated: 2026-08-18, 11:00 PM
 layout: essay
@@ -225,4 +226,3 @@ None of these fully replaces rigorous review by someone who knows the field and 
 ### 5.2. The wager
 
 AIA does not promise that anyone can do anything. It promises something narrower: that a discerning, self-critical mind can venture into hard territory, direct a machine intelligence through it, verify the results against reality, and produce work of substance, provided it accepts the responsibility that comes with it. The gate it removes is the one guarding the door. The rigor it demands, it demands of everyone alike. **AIA moves responsibility to the human; it does not dissolve it**, and in that relocation lies both its liberation and its discipline.
-

@@ -13,7 +13,7 @@ acknowledgement: Language refinement and Markdown formatting assisted by Kimi K2
 
 **Tāttvika is an experiment in independent theoretical research and open-access teaching.** It begins with a simple conviction: the pursuit of truth and the structure of institutional academia are not the same. In an ideal world, they would converge, but in practice, they can diverge uncomfortably, especially in foundational disciplines due to their natural abstractness and lack of tangibility.[^1][^2][^3][^4][^5][^6]
 
-The project explores whether rigorous intellectual work can survive outside institutional academia and remain open-access and socially meaningful. Where institutions provide collaborative teams, Tāttvika experiments with [AI Augmentation (AIA)](./essays/AI-Augmentation.md) — treating agents as extensions of the researcher's own mind, each amplifying a specific capability. The wager is that this can compensate for the loss of institutional support, at pocket-level cost.
+The project explores whether rigorous intellectual work can survive outside institutional academia and remain open-access and socially meaningful. Where institutions provide collaborative teams, Tāttvika experiments with [AI Augmentation (AIA)](./essays/ai-augmentation.md) — treating agents as extensions of the researcher's own mind, each amplifying a specific capability. The wager is that this can compensate for the loss of institutional support, at pocket-level cost.
 
 Rooted in theoretical physics and foundational reflection on science and academia in general, Tāttvika is an attempt to turn independence into a viable condition for thought.
 
@@ -113,4 +113,3 @@ This repository serves as a public log of the project's technical and conceptual
 [^5]: Hossenfelder, Sabine. Lost in Math: How Beauty Leads Physics Astray. Basic Books, 2018.
 
 [^6]: Griep, Yannick, and Kevin S. Cruz. “Calling the Time of Death on Academia: An Obituary and An Autopsy.” Group & Organization Management, March 2, 2026, 10596011261431423. https://doi.org/10.1177/10596011261431423.
-

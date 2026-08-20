@@ -12,6 +12,9 @@
 !*.md
 !*.cff
 !*.js
+!*.html
+!*.yml
+!*.yaml
 
 # Allow .gitignore and .gitattributes files themselves to be tracked
 !.gitignore
@@ -23,4 +26,3 @@
 # Ignore specific subfolders
 _Archive/
 _Internal-Work/
-
