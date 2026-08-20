@@ -1,5 +1,6 @@
 ---
 title: Tāttvika Project
+version: "1.1"
 created: 2026-03-15, 07:27 PM
 lastUpdated: 2026-08-18, 11:46 PM
 layout: essay
