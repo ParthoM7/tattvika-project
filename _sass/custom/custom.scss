@@ -96,3 +96,62 @@ body, .side-bar, .main-header, .site-header {
     max-width: none !important;
   }
 }
+
+/* ==========================================================================
+   6. FEED SUBSCRIPTION GUIDE
+   ========================================================================== */
+.feed-subscribe-card {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  background: #1d2326;
+  border: 1px solid #4f5b60;
+  border-left: 4px solid #77a3e8;
+  border-radius: 0.35rem;
+}
+
+.feed-address-row {
+  display: flex;
+  gap: 0.65rem;
+  align-items: stretch;
+  margin-top: 0.75rem;
+}
+
+.feed-address-row input {
+  min-width: 0;
+  flex: 1;
+  padding: 0.65rem 0.75rem;
+  color: #cddcf9;
+  background: #0e1523;
+  border: 1px solid #77a3e8;
+  border-radius: 0.25rem;
+  font: inherit;
+}
+
+.feed-copy-button {
+  padding: 0.65rem 0.9rem;
+  color: #0b1208;
+  background: #9ff369;
+  border: 0;
+  border-radius: 0.25rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.feed-copy-button:hover,
+.feed-copy-button:focus-visible {
+  background: #b9ff8d;
+}
+
+.feed-copy-status {
+  min-height: 1.5em;
+  margin: 0.55rem 0 0;
+  color: #9ff369;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 40rem) {
+  .feed-address-row {
+    flex-direction: column;
+  }
+}
